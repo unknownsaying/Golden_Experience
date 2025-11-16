@@ -10,9 +10,10 @@
 
 -record(golden_experience, {
     power :: stand_stat(),        % A
-    speed :: stand_stat(),        % A
+    speed :: stand_stat(),        % B
     range :: stand_stat(),        % C
-    durability :: stand_stat(),   % B
-    precision :: stand_stat(),    % C
-    potential :: stand_stat()     % A
+    durability :: stand_stat(),   % D
+    precision :: stand_stat(),    % E
+    potential :: stand_stat()     % F
+
 }).
