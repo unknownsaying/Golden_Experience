@@ -15,4 +15,5 @@
     durability :: stand_stat(),   % B
     precision :: stand_stat(),    % C
     potential :: stand_stat()     % A
+
 }).
